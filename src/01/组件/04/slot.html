@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="slot.css">
+   
+</head>
+<body>
+    <div id="app">
+        <child-component>
+            <template scope="props">
+                <p>来自父组件的内容</p>
+                <p>{{ props.msg }}</p>
+            </template>
+        </child-component>
+    </div>
+    <script src="https://cdn.staticfile.org/vue/2.2.2/vue.min.js"></script>
+    <script src="slot.js"></script>
+</body>
+</html>
